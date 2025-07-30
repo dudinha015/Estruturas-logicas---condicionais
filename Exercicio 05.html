@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="5 - Crie um programa que leia uma nota de 0 a 10 e classifique como: Reprovado, Recuperação ou Aprovado.">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        nota= parseFloat(prompt("Informe sua nota, e veja se você foi aprovado, reprovado ou esta em recuperação."));
+        if (nota < 5)
+        document.write("Infelizmente, o aluno citado esta reprovado!");
+        if (nota >= 5 && nota <=7)
+        document.write("O aluno esta de recuperação");
+        if (nota >= 7)
+        document.write("Parabéns! Você esta aprovado");
+        
+    </script>
+</body>
+</html>
